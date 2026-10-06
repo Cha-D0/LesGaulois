@@ -22,5 +22,8 @@ public class Romain {
 		return "Le Gaulois " + nom + " : ";
 	}
 	
+	public void recevoirCoup(int forceCoup) {
+		force = force-forceCoup;
+	}
 
 }
